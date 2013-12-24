@@ -14,3 +14,8 @@
 Route::get('/', function() {
 	return View::make('index');
 });
+
+// API Controllers
+
+Route::controller('server', 'ServerController');
+Route::controller('user', 'UserController');
